@@ -26,7 +26,6 @@ class CfgFunctions
 		};
 		class Respawn
 		{
-			class gearsaved {};
 			class savegear {};
 			class loadgear {};
 		};
