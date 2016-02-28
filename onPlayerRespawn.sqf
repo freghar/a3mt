@@ -12,6 +12,8 @@ params ["_new", "_old", "_type", "_delay"];
  *        3 == "BASE"    (on a marker)
  */
 
+if (!local _new) exitWith {};
+
 /* if respawn on player corpse was chosen, transfer its loadout
  * to the new player and delete the corpse */
 /* NOTE: doesn't work well, main weapon gets deleted with old corpse,
