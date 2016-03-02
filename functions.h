@@ -23,6 +23,7 @@ class CfgFunctions
 		class Misc
 		{
 			class onechannel {};
+			class add_hidebody {};
 		};
 		class Respawn
 		{
